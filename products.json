@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Product 1",
+      "description": "Description for Product 1",
+      "image": "product1.jpg"
+    },
+    {
+      "title": "Product 2",
+      "description": "Description for Product 2",
+      "image": "product2.jpg"
+    },
+    {
+      "title": "Product 3",
+      "description": "Description for Product 3",
+      "image": "product3.jpg"
+    }
+  ]
+  

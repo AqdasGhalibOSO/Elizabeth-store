@@ -1,0 +1,27 @@
+{% assign products = 
+  [
+    {
+      "title": "Product 1",
+      "description": "Description for Product 1",
+      "image": "product1.jpg"
+    },
+    {
+      "title": "Product 2",
+      "description": "Description for Product 2",
+      "image": "product2.jpg"
+    },
+    {
+      "title": "Product 3",
+      "description": "Description for Product 3",
+      "image": "product3.jpg"
+    }
+  ]
+%}
+
+{% for product in products %}
+  <div class="product">
+    <h2>{{ product.title }}</h2>
+    <p>{{ product.description }}</p>
+    <img src="{{ product.image }}" alt="{{ product.title }}">
+  </div>
+{% endfor %}
